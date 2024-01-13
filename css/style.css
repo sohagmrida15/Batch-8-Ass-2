@@ -1,3 +1,24 @@
+/* common CSS */
 * {
     font-family: "Work Sans", sans-serif;
-    }
+}
+.container{
+    max-width: 1440px;
+    margin: auto auto;
+}
+
+/* Header part */
+nav{
+    background-color: blueviolet;
+}
+
+
+nav, .nav-brand, .nav-links, .social-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand, .nav-links{
+    gap: 1rem;
+    padding: 10px;
+}
